@@ -1,0 +1,44 @@
+<!--Que Deus lhe abencoe!-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <section>
+        <div>
+            Número (entre 1 e 100):
+            <input type="number" name="numero" id="txtn">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <div>
+            <p>
+            <select name="selNum" id="selNum" size="2">
+                <option value="option0" id="option0">Adicione um número antes</option>
+            </select>
+            </p>
+            <input type="button" value="Analisar" onclick="analisar()">
+        </div>
+        <div>
+            <p id="total"></p>
+            <p id="maior"></p>
+            <p id="menor"></p>
+            <p id="soma"></p>
+            <p id="media"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Lucas Monteiro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
