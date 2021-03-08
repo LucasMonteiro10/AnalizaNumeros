@@ -36,6 +36,9 @@ function adicionar()
         }
         
     }
+
+    txtNum.value = '';
+    txtNum.focus();
 }
 
 function analisar()
